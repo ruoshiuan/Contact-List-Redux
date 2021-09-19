@@ -6,12 +6,18 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.css';
 import { BrowserRouter as Router } from 'react-router-dom';
+import { createStore } from 'redux'
+import { Provider } from 'react-redux';
+import contactReducer from './components/redux/reducers/contactReducer';
+import { composeWithDevTools } from 'redux-devtools-extension';
+const store = createStore(contactReducer, composeWithDevTools())
+
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <Router>
       <App />
     </Router>
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root')
 );
 
