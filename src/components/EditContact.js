@@ -57,9 +57,9 @@ const EditContact = () => {
             <div className="form-group mb-3">
               <input className="form-control" type="tel" placeholder="電話號碼" value={phone} onChange={e => setPhone(e.target.value)}/>
             </div>
-            <div className="form-group mb-3">
-              <input className="btn btn-dark mx-2" type="submit" value="更新成員" />
-              <Link to="/" className="btn btn-danger">取消</Link>
+            <div className="form-group mb-3 text-center">
+              <input className="btn btn-dark mx-5 px-5" type="submit" value="更新" />
+              <Link to="/" className="btn btn-danger mx-5 px-5">取消</Link>
             </div>
           </form>
         </div>

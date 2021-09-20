@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { toast } from 'react-toastify'
 import { addContact } from './redux/actions'
-import { useHistory } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 const AddContact = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -38,17 +38,18 @@ const AddContact = () => {
         <h1 className="display-3 text-center p-5">新增成員</h1>
         <div className="col-md-6 shadow mx-auto p-3">
           <form onSubmit={ handleSubmit }>
-            <div className="input-group mb-3 mt-3">
+            <div className="form-group mb-3 mt-3">
               <input className="form-control" type="text" placeholder="名稱" value={ name } onChange={e => setName(e.target.value)} />
             </div>
-            <div className="input-group mb-3">
+            <div className="form-group mb-3">
               <input className="form-control" type="email" placeholder="Email" value={ email } onChange={e => setEmail(e.target.value)} />
             </div>
-            <div className="input-group mb-3">
+            <div className="form-group mb-3">
               <input className="form-control" type="tel" placeholder="手機號碼" value={ phone } onChange={e => setPhone(e.target.value)} />
             </div>
-            <div className="input-group mb-3">
-              <input className="btn btn-block btn-dark mx-auto" type="submit" value="新增" />
+            <div className="form-group mb-3 text-center">
+              <input className="btn btn-dark mx-5 px-5" type="submit" value="新增" />
+              <Link to="/" className="btn btn-danger mx-5 px-5">取消</Link>
             </div>
           </form>
         </div>

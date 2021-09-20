@@ -10,6 +10,12 @@ const initalState = [
     name: 'Anna Wang',
     email: 'anna@test.com',
     phone: 1922345678
+  },
+  {
+    id: 2,
+    name: 'Ivy Cheng',
+    email: 'ivy@test.com',
+    phone: 1932345678
   }
 ]
 
@@ -21,6 +27,10 @@ const contactReducer = (state = initalState, action) => {
     case 'UPDATE_CONTACT':
       const updateState = state.map(contact => contact.id + 1 === action.payload.id ? action.payload : contact)
       state = updateState
+      return state
+    case 'DELETE_CONTACT':
+      const filterState = state.filter(contact => contact.id + 1 !== action.payload ? contact : null)
+      state = filterState
       return state
     default:
       return state

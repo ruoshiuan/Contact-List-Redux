@@ -10,3 +10,10 @@ export const updateContact = (data) => {
     payload: data
   }
 }
+
+export const deleteContact = (id) => {
+  return {
+    type: 'DELETE_CONTACT',
+    payload: id
+  }
+}
