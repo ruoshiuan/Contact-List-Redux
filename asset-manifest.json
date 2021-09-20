@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/Contact-List-Redux/public/index.htmlstatic/js/main.d20c6bc7.chunk.js",
-    "main.js.map": "/Contact-List-Redux/public/index.htmlstatic/js/main.d20c6bc7.chunk.js.map",
+    "main.js": "/Contact-List-Redux/public/index.htmlstatic/js/main.cd5f3bc9.chunk.js",
+    "main.js.map": "/Contact-List-Redux/public/index.htmlstatic/js/main.cd5f3bc9.chunk.js.map",
     "runtime-main.js": "/Contact-List-Redux/public/index.htmlstatic/js/runtime-main.b2357e2a.js",
     "runtime-main.js.map": "/Contact-List-Redux/public/index.htmlstatic/js/runtime-main.b2357e2a.js.map",
     "static/css/2.dcfe60af.chunk.css": "/Contact-List-Redux/public/index.htmlstatic/css/2.dcfe60af.chunk.css",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.b2357e2a.js",
     "static/css/2.dcfe60af.chunk.css",
     "static/js/2.6d0e00db.chunk.js",
-    "static/js/main.d20c6bc7.chunk.js"
+    "static/js/main.cd5f3bc9.chunk.js"
   ]
 }
