@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.d20c6bc7.chunk.js",
-    "main.js.map": "/static/js/main.d20c6bc7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1d754225.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1d754225.js.map",
-    "static/css/2.dcfe60af.chunk.css": "/static/css/2.dcfe60af.chunk.css",
-    "static/js/2.6d0e00db.chunk.js": "/static/js/2.6d0e00db.chunk.js",
-    "static/js/2.6d0e00db.chunk.js.map": "/static/js/2.6d0e00db.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.dcfe60af.chunk.css.map": "/static/css/2.dcfe60af.chunk.css.map",
-    "static/js/2.6d0e00db.chunk.js.LICENSE.txt": "/static/js/2.6d0e00db.chunk.js.LICENSE.txt"
+    "main.js": "/Contact-List-Redux/public/index.htmlstatic/js/main.d20c6bc7.chunk.js",
+    "main.js.map": "/Contact-List-Redux/public/index.htmlstatic/js/main.d20c6bc7.chunk.js.map",
+    "runtime-main.js": "/Contact-List-Redux/public/index.htmlstatic/js/runtime-main.b2357e2a.js",
+    "runtime-main.js.map": "/Contact-List-Redux/public/index.htmlstatic/js/runtime-main.b2357e2a.js.map",
+    "static/css/2.dcfe60af.chunk.css": "/Contact-List-Redux/public/index.htmlstatic/css/2.dcfe60af.chunk.css",
+    "static/js/2.6d0e00db.chunk.js": "/Contact-List-Redux/public/index.htmlstatic/js/2.6d0e00db.chunk.js",
+    "static/js/2.6d0e00db.chunk.js.map": "/Contact-List-Redux/public/index.htmlstatic/js/2.6d0e00db.chunk.js.map",
+    "index.html": "/Contact-List-Redux/public/index.htmlindex.html",
+    "static/css/2.dcfe60af.chunk.css.map": "/Contact-List-Redux/public/index.htmlstatic/css/2.dcfe60af.chunk.css.map",
+    "static/js/2.6d0e00db.chunk.js.LICENSE.txt": "/Contact-List-Redux/public/index.htmlstatic/js/2.6d0e00db.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1d754225.js",
+    "static/js/runtime-main.b2357e2a.js",
     "static/css/2.dcfe60af.chunk.css",
     "static/js/2.6d0e00db.chunk.js",
     "static/js/main.d20c6bc7.chunk.js"
