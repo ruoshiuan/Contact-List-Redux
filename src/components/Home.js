@@ -14,7 +14,7 @@ const Home = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-10 my-5 text-end">
-          <Link to="/add" className="btn btn-outline-dark">新增成員</Link>
+          <Link to="/Contact-List-Redux/add" className="btn btn-outline-dark">新增成員</Link>
         </div>
         <div className="col-md-8 mx-auto">
           <table className="table table-hover align-middle text-center">
@@ -35,7 +35,7 @@ const Home = () => {
                   <td>{ contact.email }</td>
                   <td>{ contact.phone }</td>
                   <td>
-                    <Link to={`/edit/${ contact.id + 1 }`} className="btn btn-small btn-primary">編輯</Link>
+                    <Link to={`/Contact-List-Redux/edit/${ contact.id + 1 }`} className="btn btn-small btn-primary">編輯</Link>
                     <button type="button" onClick={ () => handleDelete(contact.id + 1) } className="btn btn-small btn-danger m-2">移除</button>
                   </td>
                 </tr>

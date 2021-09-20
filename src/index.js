@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { createStore } from 'redux'
 import { Provider } from 'react-redux';
 import contactReducer from './components/redux/reducers/contactReducer';
@@ -12,9 +12,9 @@ const store = createStore(contactReducer, composeWithDevTools())
 
 ReactDOM.render(
   <Provider store={ store }>
-    <Router>
+    <HashRouter>
       <App />
-    </Router>
+    </HashRouter>
   </Provider>,
   document.getElementById('root')
 );
