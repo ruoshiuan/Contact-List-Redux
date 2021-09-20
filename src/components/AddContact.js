@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { toast } from 'react-toastify'
-import { addContact } from './redux/reducers/actions'
+import { addContact } from './redux/actions'
 import { useHistory } from 'react-router-dom'
 const AddContact = () => {
   const [name, setName] = useState('')
