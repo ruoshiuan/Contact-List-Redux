@@ -10,9 +10,9 @@ const App = () => {
       <ToastContainer />
       <Navbar />
       <Switch>
-        <Route exact path="/" component={() => <Home />} />
-        <Route path="/add" component={() => <AddContact />} />
-        <Route path="/edit/:id" component={() => <EditContact />} />
+        <Route exact path="/Contact-List-Redux" component={() => <Home />} />
+        <Route path="/Contact-List-Redux/add" component={() => <AddContact />} />
+        <Route path="/Contact-List-Redux/edit/:id" component={() => <EditContact />} />
       </Switch>
     </div>
   );

@@ -29,7 +29,7 @@ const AddContact = () => {
       }
       dispatch(addContact(data))
       toast.success('新增成功')
-      history.push('/')
+      history.push('/Contact-List-Redux')
     }
   }
   return (
@@ -49,7 +49,7 @@ const AddContact = () => {
             </div>
             <div className="form-group mb-3 text-center">
               <input className="btn btn-dark mx-5 px-5" type="submit" value="新增" />
-              <Link to="/" className="btn btn-danger mx-5 px-5">取消</Link>
+              <Link to="/Contact-List-Redux" className="btn btn-danger mx-5 px-5">取消</Link>
             </div>
           </form>
         </div>
